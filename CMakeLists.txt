@@ -3,9 +3,11 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Leetcode main.cpp)
-
-add_executable(MT.2021.10.1 MT.2021.10.1.cpp)
+add_executable(MT.2021.10.1 "Template/MMM problem.cpp")
 add_executable(offer.17 offer.17.cpp)
-add_executable(Listnode Listnode.cpp)
+add_executable(Listnode Template/Listnode.cpp)
 add_executable(offer.20 offer.20.cpp)
+add_executable(Tree Template/Tree.cpp)
+add_executable(1 "Yitu 4.5/1.cpp")
+add_executable(2 "Yitu 4.5/2.cpp")
+add_executable(3 "Yitu 4.5/3.cpp")
