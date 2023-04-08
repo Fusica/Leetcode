@@ -20,18 +20,19 @@ vector<int> exchange(vector<int>& nums) {
 }
 
 int main(){
-    int i;
-    cin >> i;
-    vector<int> nums(i);
-    for(int i = 0; i < nums.size(); ++i) {
-        cin >> nums[i];
+    vector<int> nums;
+    int n;
+    while(cin >> n){
+        nums.push_back(n);
+        if(getchar() == '\n') break;
     }
 
     vector<int> ans;
     ans = exchange(nums);
     for (int i = 0; i < ans.size(); ++i) {
-        cout << ans[i] << endl;
+        cout << ans[i] << " ";
     }
+    cout << endl;
     return 0;
 }
 
