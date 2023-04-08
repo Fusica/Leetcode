@@ -1,6 +1,7 @@
 //
 // Created by 13176 on 2023/4/3.
 //
+//https://blog.csdn.net/weixin_42373086/article/details/129758333
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -8,23 +9,22 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     // 一维数组(固定数目)
-    // int n;
-    // cin >> n;
+//    int n;
+//    cin >> n;
+//
+//    vector<int> nums(n);
+//    for (int i = 0; i < n; ++i) {
+//        cin >> nums[i];
+//    }
+//
+//    for (int i = 0; i < n ; ++i) {
+//        cout << nums[i] << " ";
+//    }
+//    cout << endl; //换行符 \n
 
-    // vector<int> nums(n);
-    // for (int i = 0; i < n; i++)
-    // {
-    //     cin >> nums[i];
-    // }
-
-    // for (int i = 0; i < nums.size(); i++)
-    // {
-    //     cout << nums[i] << " ";
-    // }
-
-    // cout << endl; //换行符 \n
 
     //一维数组(不固定数目)
+
     // vector<int> nums;
     // int n;
     // while(cin >> n){
@@ -66,6 +66,7 @@ int main(int argc, char const *argv[])
     // }
 
     //整形数字存入数组
+
     // int a;
     // cin >> a;
     // char sep;
