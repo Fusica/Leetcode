@@ -42,7 +42,7 @@ int main(){
     }
 
     int m; cin >> m;
-    vector<int> opIndex; vector<char> op;
+    vector<int> opIndex(m); vector<char> op(m);
     for (int i = 0; i < m; ++i) {
         cin >> opIndex[i] >> op[i];
     }
@@ -50,7 +50,7 @@ int main(){
     vector<float> ans(m);
     ans = solve(nums, opIndex, op, sum);
     for (int i = 0; i < m; ++i) {
-        printf("%.1f", ans[i]);
+        printf("%.1f ", ans[i]);
     }
 
     return 0;

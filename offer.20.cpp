@@ -6,8 +6,7 @@
 
 using namespace std;
 
-bool isNumber(string s) {================]
-
+bool isNumber(string s) {
     int pos = 0;
     while (pos < s.size() && s[pos] == ' ') {
         pos++;
