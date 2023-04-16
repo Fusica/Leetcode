@@ -8,8 +8,8 @@ using namespace std;
 int main(){
     int n, m, k;
     cin >> n >> m >> k;
-    vector<vector<int>> v(2, vector<int>(2));
-    for (int i = 0; i < 2; ++i) {
+    vector<vector<int>> v(k, vector<int>(2));
+    for (int i = 0; i < k; ++i) {
         for (int j = 0; j < 2; ++j) {
             cin >> v[i][j];
         }
