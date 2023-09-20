@@ -67,8 +67,7 @@ int main(int argc, char const *argv[])
 
     //整形数字存入数组
 
-    // int a;
-    // cin >> a;
+    // int a;    // cin >> a;
     // char sep;
     // vector<int> nums(a);
 
