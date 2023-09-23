@@ -50,3 +50,7 @@ add_executable(03 XieChen_9.21/03.cpp)
 add_executable(04 XieChen_9.21/04.cpp)
 
 add_executable(MeiTuan_0923_03 MeiTuan_0923/MeiTuan_0923_03.cpp)
+add_executable(Netease_0923_01 Netease_0923/Netease_0923_01.cpp)
+add_executable(Netease_0923_02 Netease_0923/Netease_0923_02.cpp)
+add_executable(Netease_0923_03 Netease_0923/Netease_0923_03.cpp)
+add_executable(Netease_0923_04 Netease_0923/Netease_0923_04.cpp)
